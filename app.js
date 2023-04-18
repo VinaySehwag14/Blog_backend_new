@@ -56,7 +56,7 @@ app.use("/api/categories", categoryRoute);
 app.get("/api/test", () => {});
 
 app.get("/", (req, res) => {
-  res.send("heelo");
+  res.send("heelo this is backend2.0");
 });
 
 //* CORS applied
